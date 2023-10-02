@@ -1,0 +1,272 @@
+
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.inicio{
+     background-color: #91d1eb;
+}
+.inicio .contenido-seccion{
+     max-width: 1000px;
+     margin: auto;
+     text-align: center;
+     padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+     padding:30px ;
+}
+.inicio .contenido-seccion header nav{
+     position: fixed;
+     margin-left: -60px;
+     margin-top: 10px;
+     background-color: hsl(242, 65%, 92%);
+     padding: 10px;
+     border-radius: 10px;
+     text-align: left;
+     z-index: 99;
+     display: none;    
+}
+.inicio .contenido-seccion header nav a{
+     display: block;
+     color: hwb(244 0% 8%);
+     margin-right: 20px;
+     margin-left: 20px;
+     text-decoration: none;
+     margin-bottom: 10px;
+     font-weight: bold;
+}
+.inicio .contenido-seccion header .nav-bar{
+     background-color: #fffb00;
+     margin-left: 10px;
+     font-size: 20px;
+     width: 40px;
+     height: 50px;
+     padding-top: 15px;
+     border-radius: 10px;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+     box-shadow: 0 0 40px hsl(0, 98%, 52%);
+}
+.inicio .contenido-seccion .info{
+     padding-bottom: 100px;
+}
+.inicio .contenido-seccion .info h1{
+     font-size: 3rem;
+     letter-spacing: 5px;
+}
+.inicio .contenido-seccion header .info h2{
+     font-weight:normal ;
+     font-size: 20px;
+     margin-top: -10px;
+     letter-spacing: 2px;
+}
+.inicio .contenido-seccion .info .redes{
+     margin: 20px;
+}
+.inicio .contenido-seccion .info .redes a{
+     display: inline-block;
+     text-decoration: none;
+     background-color: black;
+     color:hsl(0, 98%, 52%) ;
+     border-radius: 15px;
+     width: 45px;
+     height: 45px;
+     line-height: 45px;
+     margin: 0 10px;  
+     transition: .5s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+     color: hsl(0, 98%, 52%) ;
+     background-color: beige;
+     box-shadow: 0 0 20px  hsl(0, 98%, 52%);
+}
+.inicio .contenido-seccion .foto{
+     position: relative;
+}
+.inicio .contenido-seccion .foto img{
+     max-width: 200px;
+     border-radius: 50%;
+     border: 2px solid hwb(0 4% 96%);
+     position: 100px;
+     left: 50px;
+     top: -100px;
+}
+.titulo-seccion{
+     font-size: 2.5rem;
+}
+.sobremi{
+     background-color: rgb(209, 195, 137);
+     padding: 100px 0 100px 0;
+     text-align: center;
+}
+.sobremi .contenido-seccion{
+     max-width: 1000px; 
+     margin: auto;
+     padding: 0 15px;
+}
+.sobremi .contenido-seccion h3{
+     text-transform: uppercase;
+     font-size: 30px;
+}
+.sobremi .contenido-seccion .especial{
+     color: #e73c08;
+     font-weight: bold;
+     margin-top: 20px;
+}
+.sobremi .contenido-seccion p{
+     max-width: 700px;
+     margin: auto;
+     color: #fffefe;
+     padding-bottom: 10px;
+}
+.sobremi .contenido-seccion .fila{
+     display: flex;
+     margin-top: 30px;
+     justify-content:space-between ;
+}
+.sobremi .contenido-seccion .fila .col{
+     width: 120px;
+}
+.sobremi .contenido-seccion .fila .col i{
+     color: #f70404;
+     display: inline-block;
+     border: 2px solid #f70404; 
+     line-height: 40px;
+     border-radius: 5px;
+}
+.sobremi .contenido-seccion .fila .col span{
+     display: block;
+     font-weight: bold;
+     margin: 8px 0;
+}
+.habilidades{
+     padding: 30px 0px 100px 0;
+     text-align: center;
+     background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0.3)) ;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+     color: #fffefe;
+}
+.habilidades .contenido-seccion{
+     max-width: 1000px;
+     margin: auto;
+     padding: 0 10px;
+}
+.habilidades .contenido-seccion h3{
+     text-transform: uppercase;
+     font-size: 30px;
+}
+.habilidades .contenido-seccion .fila{
+     display: block;
+     justify-content: space-between;
+     margin-top: 20px;
+}
+.habilidades .contenido-seccion .fila .col{
+     width: 47%;
+     align-items: center;
+}
+.habilidades .contenido-seccion .fila .cont-barra{
+     display: flex;
+     border: 1px solid crimson;
+     padding: 8px;
+     border-radius: 3px;
+     margin-right: 10px;
+     margin-left: 10px;
+}
+.habilidades .contenido-seccion .barra{
+     display: flex;
+     border: 1px solid crimson;
+     padding: 2px;
+     border-radius: 3px;
+     margin-right: 10px;
+}
+.habilidades .contenido-seccion .barra .e{
+     background-color: #e73c08;
+     width: 20px;
+     height: 30px;
+}
+.resumen{
+     background-color:#f0d86d ;
+     padding: 140px 0 100px 0;
+     text-align: center;
+}
+.resumen .contenido-seccion{
+     max-width: 1000px;
+     margin: auto;
+     padding: 0 10px;
+}
+.resumen .contenido-seccion h3{
+     text-transform: uppercase;
+     font-size: 30px;
+}
+.resumen .contenido-seccion .info{
+     text-align: left;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+}
+.resumen .contenido-seccion .info col{
+     width: 45%;
+}
+.resumen .contenido-seccion .info .col .titulo{
+     display: inline-block;
+     color: #e01f1f;
+     font-weight: bold;
+     border: 2px solid rgb(255, 1, 52);
+     padding:10px ;
+}
+.resumen .contenido-seccion .info .col table{
+     margin-top: 30px;
+     border-collapse: collapse;
+}
+.resumen .contenido-seccion .info .col table .datos{
+     width: 40%;
+     border-bottom: 1px;
+}
+.resumen .contenido-seccion .info .col table h3{
+     font-size: 20px;
+     margin-bottom: 5px;
+}
+.resumen .contenido-seccion .info .col table h4{
+     margin-top: 10px;
+}
+.resumen .contenido-seccion .info .col table .descipcion{
+    border-left: 1px solid oldlace;
+}
+.contacto{
+    background-color: #ffcaba;
+    padding:80px 0 100px 0 ;
+    color: rgb(235, 9, 114);
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+@media screen and {max-width:800px ;
+    .habilidades .contenido-seccion .fila{
+      display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+      width: 100px;
+      text-align: center;
+    }
+} 
+
+
